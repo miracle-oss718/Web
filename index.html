@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Piano Club Restaurant, Port Harcourt. Good food, great nights.">
+    <title>Piano Club Restaurant — Port Harcourt, Nigeria</title>
+
+    <!-- Fallback fonts, used only if the Dharma Gothic / SF Pro files are missing -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="scroll-progress" aria-hidden="true"></div>
+
+<!-- HEADER -->
+<header class="site-header">
+    <nav class="navbar">
+        <a href="#home" class="logo" aria-label="Piano Club home">Piano Club</a>
+
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#menu" class="nav-link">Menu</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <a href="coming-soon.html" class="btn btn-light nav-cta">Order Now</a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="coming-soon.html" class="mobile-nav-cta">Order Now</a>
+    </div>
+</header>
+
+<!-- Blurs the page behind the mobile menu -->
+<div class="nav-backdrop" aria-hidden="true"></div>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="home" aria-label="Piano Club Restaurant introduction">
+        <div class="hero-bg">
+            <img src="restaurant-hero.jpg" alt="Dining at Piano Club Restaurant">
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="hero-content">
+            <span class="eyebrow">Piano Club Restaurant</span>
+            <h1>Good Food.<br>Great Nights.</h1>
+            <p>A memorable dining experience where exceptional food, refreshing drinks, and great atmosphere come together.</p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-light">Explore Menu <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="#contact" class="btn btn-ghost">Find Us</a>
+            </div>
+        </div>
+
+        <div class="hero-bottom">
+            <div class="hero-note"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Port Harcourt, Nigeria</div>
+            <div class="hero-note hero-scroll">Scroll to explore <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+        <div class="section-intro">
+            <span class="eyebrow">The Piano Club Experience</span>
+            <h2>Our Menu</h2>
+            <div class="accent-line"></div>
+        </div>
+
+        <div class="menu-content">
+            <div class="menu-container">
+
+                <div class="menu-category reveal">
+                    <div class="menu-category-heading"><span>01</span><h3>Starters</h3></div>
+                    <div class="menu-items">
+
+                        <article class="menu-item">
+                            <button class="menu-image frame" type="button" aria-label="View Pepper Soup">
+                                <img src="image1.jpg" alt="Pepper Soup" loading="lazy">
+                                <span class="frame-hint"><i class="fa-solid fa-expand" aria-hidden="true"></i></span>
+                            </button>
+                            <div class="menu-item-info">
+                                <div class="menu-item-top"><h4>Pepper Soup</h4><span class="menu-price">₦8,500</span></div>
+                                <p>A rich and aromatic traditional pepper soup prepared with fresh herbs and carefully selected spices.</p>
+                            </div>
+                        </article>
+
+                        <article class="menu-item">
+                            <button class="menu-image frame" type="button" aria-label="View Grilled Prawns">
+                                <img src="image2.jpg" alt="Grilled Prawns" loading="lazy">
+                                <span class="frame-hint"><i class="fa-solid fa-expand" aria-hidden="true"></i></span>
+                            </button>
+                            <div class="menu-item-info">
+                                <div class="menu-item-top"><h4>BBQ Fish</h4><span class="menu-price">₦12,000</span></div>
+                                <p>Succulent barbecue crooker fish, finished with herbs, butter and a touch of citrus.</p>
+                            </div>
+                        </article>
+
+                        <article class="menu-item">
+                            <button class="menu-image frame" type="button" aria-label="View Chicken Wings">
+                                <img src="image3.jpg" alt="Chicken Wings" loading="lazy">
+                                <span class="frame-hint"><i class="fa-solid fa-expand" aria-hidden="true"></i></span>
+                            </button>
+                            <div class="menu-item-info">
+                                <div class="menu-item-top"><h4>Peppered Goat Meat</h4><span class="menu-price">₦10,000</span></div>
+                                <p>Tender goat meat, perfectly seasoned and finished with our signature house glaze.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div class="menu-category reveal">
+                    <div class="menu-category-heading"><span>02</span><h3>Main Course</h3></div>
+                    <div class="menu-items">
+
+                        <article class="menu-item">
+                            <button class="menu-image frame" type="button" aria-label="View Signature Jollof">
+                                <img src="image4.jpg" alt="Signature Jollof" loading="lazy">
+                                <span class="frame-hint"><i class="fa-solid fa-expand" aria-hidden="true"></i></span>
+                            </button>
+                            <div class="menu-item-info">
+                                <div class="menu-item-top"><h4>Signature Fried Rice</h4><span class="menu-price">₦9,500</span></div>
+                                <p>Fragrant party-style fried rice served with grilled protein and seasonal sides.</p>
+                            </div>
+                        </article>
+
+                        <article class="menu-item">
+                            <button class="menu-image frame" type="button" aria-label="View Grilled Chicken">
+                                <img src="image5.jpg" alt="Grilled Chicken" loading="lazy">
+                                <span class="frame-hint"><i class="fa-solid fa-expand" aria-hidden="true"></i></span>
+                            </button>
+                            <div class="menu-item-info">
+                                <div class="menu-item-top"><h4>Nkwobi</h4><span class="menu-price">₦12,500</span></div>
+                                <p>spicy nkwobi served with periwinkle and our signature sauce.</p>
+                            </div>
+                        </article>
+
+                        <article class="menu-item">
+                            <button class="menu-image frame" type="button" aria-label="View Clubhouse Pasta">
+                                <img src="image6.jpg" alt="Clubhouse Pasta" loading="lazy">
+                                <span class="frame-hint"><i class="fa-solid fa-expand" aria-hidden="true"></i></span>
+                            </button>
+                            <div class="menu-item-info">
+                                <div class="menu-item-top"><h4>Carbonara Pasta</h4><span class="menu-price">₦11,500</span></div>
+                                <p>Creamy pasta tossed with fresh herbs, vegetables and your choice of protein.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div class="menu-category reveal">
+                    <div class="menu-category-heading"><span>03</span><h3>Desserts</h3></div>
+                    <div class="menu-items">
+
+                        <article class="menu-item">
+                            <button class="menu-image frame" type="button" aria-label="View Chocolate Cake">
+                                <img src="image7.jpg" alt="Chocolate Cake" loading="lazy">
+                                <span class="frame-hint"><i class="fa-solid fa-expand" aria-hidden="true"></i></span>
+                            </button>
+                            <div class="menu-item-info">
+                                <div class="menu-item-top"><h4>Pizza</h4><span class="menu-price">₦7,000</span></div>
+                                <p>Rich pizza layered with cheese and finished with toppings of your choice.</p>
+                            </div>
+                        </article>
+
+                        <article class="menu-item">
+                            <button class="menu-image frame" type="button" aria-label="View Classic Cheesecake">
+                                <img src="image8.jpg" alt="Classic Cheesecake" loading="lazy">
+                                <span class="frame-hint"><i class="fa-solid fa-expand" aria-hidden="true"></i></span>
+                            </button>
+                            <div class="menu-item-info">
+                                <div class="menu-item-top"><h4>Strawberry Margarita</h4><span class="menu-price">₦7,500</span></div>
+                                <p>Smooth, chill Margarita served with a delicate seasonal fruit topping.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <div class="menu-footer reveal">
+                    <p>Looking for something specific?</p>
+                    <a href="#contact" class="text-link">Speak with us <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DIVIDER: menu / about -->
+    <div class="section-divider" aria-hidden="true"><span></span><i class="fa-solid fa-music"></i><span></span></div>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+        <div class="about-wrap">
+
+            <div class="about-intro">
+                <span class="eyebrow">Our Story</span>
+                <h2>More Than<br>A Restaurant.</h2>
+                <div class="accent-line"></div>
+                <p>A place for good food, good company, and nights worth remembering.</p>
+            </div>
+
+            <div class="about-story reveal">
+                <figure class="about-image frame">
+                    <img src="image9.jpg" alt="Inside Piano Club Restaurant" loading="lazy">
+                </figure>
+
+                <div class="about-copy">
+                    <span class="eyebrow">The Piano Club</span>
+                    <h3>Where every meal becomes part of the evening.</h3>
+                    <p>At Piano Club, food is only part of the experience. We bring together thoughtful cooking, warm hospitality and an atmosphere designed for people to slow down, connect and enjoy the moment.</p>
+                    <p>Whether you're joining us for dinner, celebrating something special or simply looking for somewhere good to unwind, there's always a place for you here.</p>
+                </div>
+            </div>
+
+            <div class="about-values reveal">
+                <div class="about-value">
+                    <span>01</span>
+                    <h4>Good Food</h4>
+                    <p>Thoughtfully prepared dishes made to be remembered.</p>
+                </div>
+                <div class="about-value">
+                    <span>02</span>
+                    <h4>Great Company</h4>
+                    <p>A welcoming space made for sharing moments.</p>
+                </div>
+                <div class="about-value">
+                    <span>03</span>
+                    <h4>Unforgettable Nights</h4>
+                    <p>An atmosphere that keeps the evening going.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DIVIDER: about / contact -->
+    <div class="section-divider" aria-hidden="true"><span></span><i class="fa-solid fa-music"></i><span></span></div>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        <div class="section-intro">
+            <span class="eyebrow">Come See Us</span>
+            <h2>Come Find Us.</h2>
+            <div class="accent-line"></div>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-container">
+
+                <div class="contact-grid reveal">
+                    <div class="contact-block">
+                        <span class="contact-number">01</span>
+                        <span class="contact-label">Location</span>
+                        <h3>Port Harcourt, Nigeria.</h3>
+                        <p>Find us at NDDC, By, 139 Port Harcourt - Aba Expy, Umueme, Port Harcourt, Rivers.</p>
+                        <a href="coming-soon.html" class="text-link">Get Directions <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+
+                    <div class="contact-block">
+                        <span class="contact-number">02</span>
+                        <span class="contact-label">Opening Hours</span>
+                        <div class="opening-hours">
+                            <div class="hours-row"><span>Monday — Thursday</span><strong>11:00 AM — 12:00 AM</strong></div>
+                            <div class="hours-row"><span>Friday — Saturday</span><strong>11:00 AM — 12:00 AM</strong></div>
+                            <div class="hours-row"><span>Sunday</span><strong>11:00 AM — 12:00 AM</strong></div>
+                        </div>
+                    </div>
+
+                    <div class="contact-block">
+                        <span class="contact-number">03</span>
+                        <span class="contact-label">Contact</span>
+                        <h3>Let's talk.</h3>
+                        <p>Have a question, planning a celebration or simply want to make a reservation? We'd love to hear from you.</p>
+                        <a href="tel:+2340000000000" class="text-link">+234 000 000 0000 <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-cta frame reveal">
+                    <img src="image10.jpg" alt="" loading="lazy">
+                    <div class="cta-body">
+                        <div>
+                            <span class="cta-label">Your table awaits</span>
+                            <h3>Make tonight <em>worth remembering.</em></h3>
+                        </div>
+                        <a href="coming-soon.html" class="btn btn-accent">Reserve a Table <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <a href="#home" class="footer-logo">Piano Club</a>
+            <p>Good Food. Great Nights.</p>
+        </div>
+
+        <div class="footer-navigation">
+            <div class="footer-column">
+                <span class="footer-heading">Explore</span>
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-column">
+                <span class="footer-heading">Visit</span>
+                <span>Port Harcourt, Nigeria</span>
+                <a href="coming-soon.html" class="footer-direction">Get Directions <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="footer-column">
+                <span class="footer-heading">Follow</span>
+                <a href="coming-soon.html">Instagram</a>
+                <a href="coming-soon.html">Facebook</a>
+                <a href="coming-soon.html">TikTok</a>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <span>© 2026 Piano Club Restaurant</span>
+            <div class="footer-legal">
+                <a href="coming-soon.html">Privacy</a>
+                <a href="coming-soon.html">Terms</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- LIGHTBOX (filled by script.js) -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Dish preview" aria-hidden="true">
+    <button class="lb-btn lb-close" type="button" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lb-btn lb-prev" type="button" aria-label="Previous dish"><i class="fa-solid fa-arrow-left"></i></button>
+    <button class="lb-btn lb-next" type="button" aria-label="Next dish"><i class="fa-solid fa-arrow-right"></i></button>
+
+    <figure class="lb-figure">
+        <div class="lb-image frame"><img src="" alt=""></div>
+        <figcaption>
+            <div class="lb-top"><h4></h4><span class="menu-price"></span></div>
+            <p></p>
+            <small class="lb-count"></small>
+        </figcaption>
+    </figure>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+ 
